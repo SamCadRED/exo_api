@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
+# https://github.com/SamCadRED/exo_api
+# API : https://console.firebase.google.com/project/api-test-exo/database/api-test-exo-default-rtdb/data
 * text=auto

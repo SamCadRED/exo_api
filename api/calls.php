@@ -1,6 +1,11 @@
 <?php
 include_once 'auth.php';
-$GLOBALS['URL'] = 'https://api-test-exo-default-rtdb.europe-west1.firebasedatabase.app/Produits';
+
+// URL de l'API que l'on veut appeler
+$adresse_api = 'https://api-test-exo-default-rtdb.europe-west1.firebasedatabase.app/';
+
+// URL complète
+$GLOBALS['URL'] = "$adresse_api.Produits";
 
 function getAllProducts(){
     $query = $GLOBALS['URL'].'.json';

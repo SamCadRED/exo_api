@@ -1,4 +1,8 @@
-# TP sur une API Firebase
+# TP - API Firebase
+Ce projet est une application permettant de gérer les données de stocks d'une API REST.
+On peut suprimer / ajouter / modifier toutes les données et les affcher sur une page WEB.
 
-## Installation
+## Pour commencer
+Dans le dossier api/calls.php, modifiez la variable php ``$adresse_api``, qui contient l'URL de l'API que l'on va utiliser.
 
+Copiez les données entre crochets ``[]`` contenues dans data/data.json sur votre api locale ou en ligne, 

@@ -6,3 +6,23 @@ On peut suprimer / ajouter / modifier toutes les données et les affcher sur une
 ## Pour commencer
 
 Dans le dossier api/calls.php, modifiez la variable php ``$adresse_api``, qui contient l'URL de l'API que l'on va utiliser.
+
+### Arcitecture des données
+
+``Produits.json:
+    "0":
+    {
+        "categorie": "Fruits",
+        "description": "fruit exotique",
+        "id": 0,
+        "nom": "Banane",
+        "prix": "0,46"
+    },
+    "1":
+    {
+        "categorie": "Fruits",
+        "description": "Tomate coeur de boeuf",
+        "id": "1",
+        "nom": "Tomate",
+        "prix": "0,23"
+    }``

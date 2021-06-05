@@ -9,7 +9,7 @@ Dans le dossier api/calls.php, modifiez la variable php ``$adresse_api``, qui co
 
 ### Arcitecture des données
 
-``Produits.json:
+```Produits.json:
     "0":
     {
         "categorie": "Fruits",
@@ -25,4 +25,5 @@ Dans le dossier api/calls.php, modifiez la variable php ``$adresse_api``, qui co
         "id": "1",
         "nom": "Tomate",
         "prix": "0,23"
-    }``
+    }
+```

@@ -27,7 +27,7 @@ function getAllProducts(){
     $current_dir = getcwd();
     $current_dir = str_replace("\\", "/", $current_dir);
 
-    $file = $current_dir.'data/data.json';
+    $file = $current_dir.'/data/data.json';
     writeToFile($file,$Products);
 
     return $Produits;

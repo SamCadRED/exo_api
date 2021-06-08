@@ -69,7 +69,6 @@
                 }
                 echo createTable($lines);
             ?>
-		    <!-- <div class="alert alert-secondary"></div> -->
         </div>
         <div class="product-info">
             <?php 

@@ -78,7 +78,10 @@ function writeToFile($file,$object){
 }
 
 function getImage($id){
-    if(file_exists('data/image/'.$id.'.jpg')) {
+    $current_dir = getcwd();
+    $current_dir = str_replace("\\", "/", $current_dir);
+
+    if(file_exists($current_dir.'/data/image/'.$id.'.jpg')) {
         return true;
     } else {
         return false;
